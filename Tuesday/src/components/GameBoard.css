@@ -1,0 +1,30 @@
+.game-container {
+    text-align: center;
+}
+
+.audio-toggle {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 24px; /* Increase font size for the icon */
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #87ceeb;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; /* Space between tiles */
+    margin: 20px auto;
+    width: max-content; /* Adjust width to fit 4 tiles with space */
+    justify-content: center;
+}
+
+.congratulations {
+    grid-column: span 4;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}

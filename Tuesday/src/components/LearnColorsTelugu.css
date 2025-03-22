@@ -1,0 +1,111 @@
+/* body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f4f6;
+  }
+  
+  .app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  Always render 2 columns 
+    gap: 20px;
+  }
+  
+  .color-tile {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .color-tile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .text-container {
+    flex-grow: 1;
+  }
+  
+  .telugu-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .english-name {
+    font-size: 18px;
+  }
+  
+  .character-image {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin: 0 15px;
+  }
+  
+  .volume-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  
+  .bg-red {
+    background-color: #f56565;
+  }
+  
+  .bg-blue {
+    background-color: #4299e1;
+  }
+  
+  .bg-green {
+    background-color: #48bb78;
+  }
+  
+  .bg-yellow {
+    background-color: #ecc94b;
+  }
+  
+  .bg-purple {
+    background-color: #9f7aea;
+  }
+  
+  .bg-orange {
+    background-color: #ed8936;
+  }
+   */
+   .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .color-btn:hover {
+    transform: translateY(-5px);
+  }
