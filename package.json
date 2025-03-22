@@ -11,7 +11,7 @@
   },
   "license": "ISC",
   "author": "na",
-  "type": "nodejs",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "na"
